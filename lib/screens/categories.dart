@@ -31,6 +31,10 @@ class Categories extends StatelessWidget {
               icon: const Icon(Icons.favorite))
         ],
       ),
+      drawer: Drawer(
+        child: ListView.builder(
+            itemCount: categoryList.length, itemBuilder: (context, index) => Text(categoryList[index].name)),
+      ),
       body: GridView(
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2, crossAxisSpacing: 20, mainAxisSpacing: 20, childAspectRatio: 2),

@@ -27,6 +27,16 @@ class _MealDetailsState extends ConsumerState<MealDetails> {
               icon: Icon(favorites.contains(widget.meal) ? Icons.favorite : Icons.favorite_border))
         ],
       ),
+      /*body: Container(
+          width: 300.0,
+          height: 300.0,
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage(widget.meal.imageUrl),
+              fit: BoxFit.cover,
+            ),
+          ),
+        )*/
     );
   }
 }

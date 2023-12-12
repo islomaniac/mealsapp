@@ -15,7 +15,7 @@ const mealList = [
       id: "1",
       categoryId: "1",
       name: "Mercimek Çorbası",
-      imageUrl: "https://gulumoglubaklava.com.tr/wp-content/uploads/292c2709-1626-4278-8589-fd456ae44468.jpg",
+      imageUrl: 'assets/images/spaghetti.jpg',
       ingredients: ["Malzeme 1", "Malzeme 2", "Malzeme 3"]),
   Meal(
       id: "2",
